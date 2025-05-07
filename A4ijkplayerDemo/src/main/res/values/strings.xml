@@ -69,4 +69,9 @@
     <string name="VideoView_player_IjkMediaPlayer">Player: IjkMediaPlayer</string>
     <string name="VideoView_player_IjkExoMediaPlayer">Player: IjkExoMediaPlayer</string>
 
+    <!-- Home Activity -->
+    <string name="home_video_url_hint">Enter video URL</string>
+    <string name="home_select_local_video">Select local video</string>
+    <string name="home_play_video">Play video</string>
+
 </resources>
