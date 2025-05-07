@@ -50,7 +50,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
                 Toast.makeText(this, "Please enter a video URL", Toast.LENGTH_SHORT).show();
                 return;
             }
-            videoUrl = "https://zyb-charge-media.cdnjtzy.com/0-18446236-6-0/c097b52818e0980b579855fe7ca65c09.m3u8?q-sign-algorithm=sha1&q-ak=AKIDKYbxDMT9xb3Nae8KuIUedT8br5EDkd7a&q-sign-time=1746588144%3B1746598944&q-key-time=1746588144%3B1746598944&q-header-list=host&q-url-param-list=&q-signature=b7a745e344c534ccd8b9041a19d7b734e124ad89";
+            videoUrl = "";
             // Use the existing VideoActivity to play the URL
             VideoActivity.intentTo(this, videoUrl, "Video from URL");
         }
