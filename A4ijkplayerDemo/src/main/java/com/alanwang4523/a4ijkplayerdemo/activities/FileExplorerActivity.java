@@ -94,6 +94,7 @@ public class FileExplorerActivity extends AppActivity {
             mSettings.setLastDirectory(path);
             doOpenDirectory(path, true);
         } else if (f.exists()) {
+            // 直接播放视频
             VideoActivity.intentTo(this, f.getPath(), f.getName());
         }
     }

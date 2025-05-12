@@ -132,8 +132,20 @@ public class PathCursor extends AbstractCursor {
     private static Set<String> sMediaExtSet = new TreeSet<String>(String.CASE_INSENSITIVE_ORDER);
 
     static {
+        // 常见视频格式
         sMediaExtSet.add("flv");
         sMediaExtSet.add("mp4");
+        sMediaExtSet.add("mkv");
+        sMediaExtSet.add("avi");
+        sMediaExtSet.add("mov");
+        sMediaExtSet.add("wmv");
+        sMediaExtSet.add("rmvb");
+        sMediaExtSet.add("rm");
+        sMediaExtSet.add("3gp");
+        sMediaExtSet.add("m4v");
+        sMediaExtSet.add("webm");
+        sMediaExtSet.add("ts");
+        sMediaExtSet.add("m3u8");
     }
 
     private class FileItem {
